@@ -1,0 +1,42 @@
+$main-color: #0099FF; // 主色
+$white: #FFFFFF; // 白
+$black: #000000; // 黑
+$gray: #C1E1FF; // 灰白
+$grey: #5490ED; // 灰
+$green: #32BE67; // 绿
+$red: #D02052; // 红
+$blue: #00EAFF ; // 蓝
+$yellow: #FFAC00; // 黄
+
+$pageBg: #050C21; // 页面背景色
+
+:root {
+    --auto-font-size: 16px;
+
+    /* 笔记本小屏幕 */
+    @media (max-width: 1199px) {
+        --auto-font-size: 15px;
+    }
+    /* 平板设备 */
+    @media (max-width: 991px) {
+        --auto-font-size: 14px;
+    }
+    /* 手机设备 */
+    @media (max-width: 575px) {
+        --auto-font-size: 12px;
+    }
+}
+
+/* 确保CSS变量生效 */
+html {
+    font-size: var(--auto-font-size) !important;
+}
+
+body {
+    font-size: var(--auto-font-size) !important;
+}
+
+/* 确保暗黑主题生效 */
+html.dark {
+    color-scheme: dark;
+}

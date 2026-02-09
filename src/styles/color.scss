@@ -1,0 +1,49 @@
+.main{ color: $main-color; }
+.white{ color: $white; } 
+.black{ color: $black; }
+.gray{ color: $gray; }
+.grey{ color: $grey; }
+.green{ color: $green; }
+.red{ color: $red; }
+.blue{ color: $blue; }
+.yellow{ color: $yellow; }
+
+.bgMain{ background-color: $main-color; }
+.bgWhite{ background-color: $white; }
+.bgBlack{ background-color: $black; }
+.bgGray{ background-color: $gray; }
+.bgGrey{ background-color: $grey; }
+.bgGreen{ background-color: $green; }
+.bgRed{ background-color: $red; }
+.bgBlue{ background-color: $blue; }
+.bgYellow{ background-color: $yellow; }
+
+body{
+    background-color: $pageBg;
+    color: #FFFFFF;   
+}
+
+input{
+    &::placeholder{
+        color: #FFFFFF80;
+    }
+}
+
+.disableBtn{
+    background: #464369 !important;
+    color: #9694AE !important;
+}
+
+.linearTxt{
+    display: inline-block;
+    background: linear-gradient(120deg, #76B6E8, #D37EEA, #F8F8F8, #2A2934);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.disable{
+    background: #FFFFFF29 !important;
+    color: #FFFFFF80 !important;
+}
