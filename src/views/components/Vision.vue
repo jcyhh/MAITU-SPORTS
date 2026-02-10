@@ -58,6 +58,10 @@
                     </div>
                     <div class="tc size24 gray mt40">{{ $t('核心理念') }}</div>
                     <div class="tc size14 grey lh28 pl mt30 content">{{ $t('稳健运营 · 数字驱动 · 价值导向 · 长期共赢') }}</div>
+                    <div class="tc size24 gray mt40">{{ $t('塞舌尔执照') }}</div>
+                    <div class="flex jc mt30">
+                        <img src="@/assets/imgs/book.jpg" class="book">
+                    </div>
                 </div>
             </div>
         </div>
@@ -131,6 +135,15 @@ import Title from '@/components/Title.vue';
     }
 }
 
+.book{
+    border-radius: 10px;
+    height: auto;
+    transition: all 0.3s;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
 /* 大屏幕 */
 @media (min-width: 876px) {
     .vision{
@@ -164,6 +177,9 @@ import Title from '@/components/Title.vue';
     }
     .tags{
         padding: 0 8vw;
+    }
+    .book{
+        width: 40vw;
     }
 }
 
@@ -200,6 +216,9 @@ import Title from '@/components/Title.vue';
     }
     .tags{
         padding: 0 35px;
+    }
+    .book{
+        width: 90%;
     }
 }
 </style>
