@@ -21,7 +21,7 @@
                     <Title>{{ $t('媒体') }}</Title>
                 </div>
                 <div class="flex jc mp4">
-                    <video controls :autoplay="true" src="https://"></video>
+                    <video controls autoplay muted playsinline preload="auto" :src="'/h5/AboutUs.MP4'"></video>
                 </div>
             </div>
         </div>

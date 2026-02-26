@@ -14,7 +14,7 @@ BigNumber.set({
 
 // Element Plus 暗黑模式
 import 'element-plus/theme-chalk/dark/css-vars.css'
-
+import 'element-plus/es/components/notification/style/css'
 import '@vant/touch-emulator'; // 电脑端mouse事件转touch事件
 
 
