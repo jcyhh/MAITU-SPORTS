@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import routes from "./modules";
 
 export const router = createRouter({
-    history: createWebHistory('/h5/'),
+    history: createWebHistory('/'),
     routes,
     scrollBehavior(){
         return { top: 0 }

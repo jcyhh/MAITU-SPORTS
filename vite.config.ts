@@ -19,7 +19,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 
 export default defineConfig({
-    base: '/h5/',
+    base: '/',
     server: {
         host: '0.0.0.0',
         port: 5174,
