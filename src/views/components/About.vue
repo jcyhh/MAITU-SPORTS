@@ -1,11 +1,11 @@
 <template>
     <div class="about flex col jc mainP" id="About">
         <img src="@/assets/imgs/4.png" class="pic4">
-        <Title>{{ $t('关于迈图体育') }}</Title>
+        <Title>{{ $t('关于迈途体育') }}</Title>
 
 
         <div class="mt60 size20 lh40">
-            {{ $t('迈图体育集团') }}（MAITU SPORTS GROUP LTD）
+            {{ $t('迈途体育集团') }}（MAITU SPORTS GROUP LTD）
             <span class="main">{{ $t('注册于塞舌尔共和国') }}</span> 
             {{ $t('，业务覆盖欧洲、亚洲及多个新兴体育市场，') }}
             <span class="main">{{ $t('是专注于体育产业与数字经济深度融合的国际化综合服务平台。') }}</span>

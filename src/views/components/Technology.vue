@@ -65,7 +65,7 @@
             <img src="@/assets/imgs/31.png" class="img100 mr20 flex0">
             <div>
                 <div class="size20 gray">{{ $t('平台 × 数据 × 资源 三位一体驱动体系') }}</div>
-                <div class="size14 grey mt10 lh28">{{ $t('迈图体育构建“平台 + 数据 + 资源”协同发展的运营模式，通过项目孵化、资源整合、服务输出与体系建设，打通体育资源从管理到价值转化的完整路径。') }}</div>
+                <div class="size14 grey mt10 lh28">{{ $t('迈途体育构建“平台 + 数据 + 资源”协同发展的运营模式，通过项目孵化、资源整合、服务输出与体系建设，打通体育资源从管理到价值转化的完整路径。') }}</div>
             </div>
         </div>
         <div class="gap20"></div>

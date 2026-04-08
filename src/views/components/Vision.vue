@@ -47,7 +47,7 @@
                     <div class="tc size14 grey lh28 pl mt30 content">
                         {{ $t('以体育产业为核心，整合全球赛事资源、数字技术能力与产业协同网络，构建覆盖投资管理、赛事运营、数字化升级与产业服务的一体化体系。') }}
                     </div>
-                    <div class="blue tc size14 mt30">{{ $t('迈图体育定位于：') }}</div>
+                    <div class="blue tc size14 mt30">{{ $t('迈途体育定位于：') }}</div>
                     <div class="flex tags mt30 tc">
                         <div class="flex1 tag flex jc ac size14 gray hoverBig">{{ $t('体育资源投资者') }}</div>
                         <div class="flex1 tag flex jc ac size14 gray ml20 hoverBig">{{ $t('体育产业整合者') }}</div>
